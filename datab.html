@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+        <link rel="stylesheet" href="StyleSheet.css" type="text/css" />
+      <script type="text/javascript" src="style.js">
+
+      </script>
+		
+   </head>
+	
+   <body>
+       <div>
+           
+           <input type="text" id="rollno" placeholder="enter employee id "/>
+           <input type="text" id="name" placeholder="enter employee name"/>
+           <input type="button" id="click" value="insert" onclick="insertData()"/>
+            <input type="button"  value="create" onclick="createTable()"/>
+            <input type="button"  value="show" onclick="showData()"/>
+            <input type="button"  value="delete" onclick="deleteData()"/>
+             <input type="button"  value="drop" onclick="dropTable()"/>
+             <input type="button" value="backup" onclick="showBackup()"/> 
+            
+           
+       </div>
+       
+      <div id="status" name="status">Status Message</div>
+      
+      <table  id="mytable">
+          <tr>
+              
+          </tr>
+      </table>
+     
+   </body>
+	
+</html>
